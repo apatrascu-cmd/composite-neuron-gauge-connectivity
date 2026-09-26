@@ -1,0 +1,10 @@
+{
+  "local_rephasing_with_transporter_max_deviation": 8.881784197001252e-16,
+  "common_rephasing_modulus_max_deviation": 6.661338147750939e-16,
+  "local_rephasing_without_transporter_max_change": 2.086181765839581,
+  "cosine_layer_paired_rotation_max_change": 3.6116803169838922,
+  "elliptic_readout_second_moment_spread": 2.220446049250313e-16,
+  "elliptic_lambda0_common_phase_max_change": 4.111986612373088,
+  "elliptic_lambda1_common_phase_max_deviation": 8.881784197001252e-16,
+  "PASS": true
+}

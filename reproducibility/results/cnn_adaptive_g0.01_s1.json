@@ -1,0 +1,97 @@
+{
+ "config": "adaptive",
+ "gamma": 0.01,
+ "seed": 1,
+ "epochs": 8,
+ "eps": 0.03,
+ "quick": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.841870284101698,
+   "penalty": 5.334725223795573,
+   "train_acc": 0.3150222222222222,
+   "val_acc": 0.4444,
+   "elapsed_s": 339.55883288383484
+  },
+  {
+   "epoch": 2,
+   "train_loss": 1.5682379533979627,
+   "penalty": 5.974661905754937,
+   "train_acc": 0.4187777777777778,
+   "val_acc": 0.4874,
+   "elapsed_s": 744.4147436618805
+  },
+  {
+   "epoch": 3,
+   "train_loss": 1.4680679447386,
+   "penalty": 5.885979036119249,
+   "train_acc": 0.4592,
+   "val_acc": 0.5126,
+   "elapsed_s": 1041.261709690094
+  },
+  {
+   "epoch": 4,
+   "train_loss": 1.4023157540533278,
+   "penalty": 6.019492137569851,
+   "train_acc": 0.48906666666666665,
+   "val_acc": 0.5432,
+   "elapsed_s": 1395.563874721527
+  },
+  {
+   "epoch": 5,
+   "train_loss": 1.3490719493865966,
+   "penalty": 6.297929051038954,
+   "train_acc": 0.5096444444444445,
+   "val_acc": 0.5504,
+   "elapsed_s": 1650.5657057762146
+  },
+  {
+   "epoch": 6,
+   "train_loss": 1.3048259854634603,
+   "penalty": 6.479175753275554,
+   "train_acc": 0.5297555555555555,
+   "val_acc": 0.5472,
+   "elapsed_s": 1895.7649748325348
+  },
+  {
+   "epoch": 7,
+   "train_loss": 1.2803070989396836,
+   "penalty": 6.645193235863579,
+   "train_acc": 0.5396444444444445,
+   "val_acc": 0.5766,
+   "elapsed_s": 2145.93665266037
+  },
+  {
+   "epoch": 8,
+   "train_loss": 1.2468339950879415,
+   "penalty": 6.733905721706814,
+   "train_acc": 0.5532444444444444,
+   "val_acc": 0.5886,
+   "elapsed_s": 2392.017625808716
+  }
+ ],
+ "clean_test_acc": 0.5845,
+ "val_acc_final": 0.5886,
+ "n_adv": 2000,
+ "clean_acc_on_adv_subset": 0.5885,
+ "fgsm_test_acc": 0.062,
+ "pgd10_test_acc": 0.016,
+ "cluster_compactness": 0.972856879234314,
+ "regulariser_stats": {
+  "Lambda_moved_norm": 1.7052083015441895,
+  "Lambda_norm": 1.704697847366333,
+  "alpha_mean_rows": [
+   0.30322927236557007,
+   0.1859797239303589,
+   0.3012429475784302,
+   0.20954807102680206
+  ],
+  "alpha_normalised_entropy": 0.6476754546165466,
+  "alpha_max_mean": 0.5712869763374329
+ },
+ "final_penalty": 6.828549861907959,
+ "wall_time_s": 2475.8201928138733,
+ "n_params": 167562,
+ "code_sha256_16": "89a4310b92e970b4"
+}

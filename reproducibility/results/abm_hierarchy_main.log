@@ -1,0 +1,69 @@
+[13:39:19] params {"D0": 0.005, "D1": 0.001, "G": 4, "J0": 0.3, "J1": 0.3, "N": 1000, "T0": 800.0, "T1_coarse": 800.0, "base_code_sha256": "47092474483a132ff85f66cf3bdc96dabd810b42c6cb8870417bc7d0d830d256", "coarse_k_values": [2, 4, 8], "code_sha256": "d7060b244306e42f23de7a6255b667cde4f064904ab9c67dead17ec1ad5dd089", "control_k": 4, "dOmega": 2.0, "delta_max": 3.141592653589793, "dt": 0.05, "eta_J0": 0.005, "eta_J1": 0.0025, "eta_omega0": 0.005, "eta_omega1": 0.0025, "eta_theta0": 0.05, "eta_theta1": 0.025, "flat_tolerance": 0.01, "k": 12, "min_size": 5, "mu": 1.0, "observation_every": 1.0, "observation_window": 100.0, "record_every": 10.0, "scale_certified_fraction": 0.95, "schema_version": 2, "seeds": [10, 11, 12, 13, 14], "sigma_omega": 0.05, "thr_frac": 0.5}
+[13:41:19] fine seed 10: candidates=56 certified=56 assigned=0.745
+[13:41:26]   local_gauge              modules= 50 ARI=0.141 purity=0.958 support_hom=0.035
+[13:41:33]   local_standard           modules= 52 ARI=0.142 purity=0.976 support_hom=0.035
+[13:41:40]   frequency_gauge_k2       modules=  6 ARI=0.839 purity=0.976 support_hom=0.368
+[13:41:49]   frequency_standard_k2    modules=  8 ARI=0.683 purity=0.976 support_hom=0.368
+[13:42:02]   frequency_gauge_k4       modules=  4 ARI=0.937 purity=0.976 support_hom=0.537
+[13:42:14]   frequency_standard_k4    modules=  6 ARI=0.825 purity=0.976 support_hom=0.537
+[13:42:28]   random_gauge_k4          modules= 25 ARI=0.314 purity=0.948 support_hom=0.147
+[13:42:42]   oracle_gauge_k4          modules=  4 ARI=0.937 purity=0.976 support_hom=0.537
+[13:42:59]   frequency_gauge_k8       modules=  4 ARI=0.879 purity=0.950 support_hom=0.675
+[13:43:11]   frequency_standard_k8    modules=  5 ARI=0.928 purity=0.976 support_hom=0.675
+[13:43:11]   scale selection: admissible=[2, 4] selected=4 gauge_ARI=0.937 standard_ARI=0.825
+[13:43:11] seed 10 done, elapsed 232.0s, ETA 928.0s
+[13:44:50] fine seed 11: candidates=61 certified=61 assigned=0.763
+[13:44:55]   local_gauge              modules= 54 ARI=0.139 purity=0.961 support_hom=0.044
+[13:44:58]   local_standard           modules= 56 ARI=0.143 purity=0.980 support_hom=0.044
+[13:45:04]   frequency_gauge_k2       modules=  8 ARI=0.592 purity=0.916 support_hom=0.331
+[13:45:09]   frequency_standard_k2    modules= 10 ARI=0.564 purity=0.980 support_hom=0.331
+[13:45:15]   frequency_gauge_k4       modules=  5 ARI=0.738 purity=0.916 support_hom=0.494
+[13:45:20]   frequency_standard_k4    modules=  8 ARI=0.781 purity=0.980 support_hom=0.494
+[13:45:27]   random_gauge_k4          modules= 19 ARI=0.504 purity=0.923 support_hom=0.154
+[13:45:36]   oracle_gauge_k4          modules=  5 ARI=0.738 purity=0.916 support_hom=0.494
+[13:45:47]   frequency_gauge_k8       modules=  3 ARI=0.683 purity=0.759 support_hom=0.650
+[13:45:57]   frequency_standard_k8    modules=  5 ARI=0.924 purity=0.980 support_hom=0.650
+[13:45:57]   scale selection: admissible=[] selected=0 gauge_ARI=0.139 standard_ARI=0.143
+[13:45:57] seed 11 done, elapsed 397.8s, ETA 596.7s
+[13:47:18] fine seed 12: candidates=52 certified=52 assigned=0.775
+[13:47:26]   local_gauge              modules= 45 ARI=0.246 purity=0.881 support_hom=0.008
+[13:47:33]   local_standard           modules= 47 ARI=0.266 purity=0.942 support_hom=0.008
+[13:47:39]   frequency_gauge_k2       modules=  7 ARI=0.564 purity=0.788 support_hom=0.328
+[13:47:45]   frequency_standard_k2    modules=  9 ARI=0.462 purity=0.788 support_hom=0.328
+[13:47:52]   frequency_gauge_k4       modules=  4 ARI=0.622 purity=0.788 support_hom=0.498
+[13:47:58]   frequency_standard_k4    modules=  6 ARI=0.562 purity=0.788 support_hom=0.498
+[13:48:07]   random_gauge_k4          modules= 20 ARI=0.368 purity=0.788 support_hom=0.153
+[13:48:16]   oracle_gauge_k4          modules=  4 ARI=0.622 purity=0.788 support_hom=0.498
+[13:48:29]   frequency_gauge_k8       modules=  3 ARI=0.318 purity=0.594 support_hom=0.656
+[13:48:40]   frequency_standard_k8    modules=  4 ARI=0.941 purity=0.978 support_hom=0.656
+[13:48:40]   scale selection: admissible=[4] selected=4 gauge_ARI=0.622 standard_ARI=0.562
+[13:48:40] seed 12 done, elapsed 560.7s, ETA 373.8s
+[13:51:12] fine seed 13: candidates=58 certified=58 assigned=0.730
+[13:51:21]   local_gauge              modules= 50 ARI=0.138 purity=0.934 support_hom=0.026
+[13:51:29]   local_standard           modules= 54 ARI=0.132 purity=0.975 support_hom=0.026
+[13:51:39]   frequency_gauge_k2       modules= 12 ARI=0.552 purity=0.975 support_hom=0.339
+[13:51:48]   frequency_standard_k2    modules= 14 ARI=0.508 purity=0.975 support_hom=0.339
+[13:51:59]   frequency_gauge_k4       modules=  5 ARI=0.823 purity=0.934 support_hom=0.505
+[13:52:10]   frequency_standard_k4    modules=  7 ARI=0.745 purity=0.975 support_hom=0.505
+[13:52:20]   random_gauge_k4          modules= 16 ARI=0.542 purity=0.897 support_hom=0.162
+[13:52:29]   oracle_gauge_k4          modules=  5 ARI=0.823 purity=0.934 support_hom=0.505
+[13:52:41]   frequency_gauge_k8       modules=  4 ARI=0.938 purity=0.975 support_hom=0.660
+[13:52:52]   frequency_standard_k8    modules=  4 ARI=0.938 purity=0.975 support_hom=0.660
+[13:52:52]   scale selection: admissible=[8] selected=8 gauge_ARI=0.938 standard_ARI=0.938
+[13:52:52] seed 13 done, elapsed 812.4s, ETA 203.1s
+[13:54:45] fine seed 14: candidates=62 certified=62 assigned=0.772
+[13:54:51]   local_gauge              modules= 52 ARI=0.155 purity=0.876 support_hom=0.012
+[13:54:57]   local_standard           modules= 60 ARI=0.138 purity=0.983 support_hom=0.012
+[13:55:05]   frequency_gauge_k2       modules=  8 ARI=0.563 purity=0.872 support_hom=0.352
+[13:55:14]   frequency_standard_k2    modules= 11 ARI=0.486 purity=0.913 support_hom=0.352
+[13:55:22]   frequency_gauge_k4       modules=  4 ARI=0.697 purity=0.843 support_hom=0.494
+[13:55:29]   frequency_standard_k4    modules=  4 ARI=0.803 purity=0.913 support_hom=0.494
+[13:55:38]   random_gauge_k4          modules= 21 ARI=0.492 purity=0.913 support_hom=0.149
+[13:55:46]   oracle_gauge_k4          modules=  4 ARI=0.697 purity=0.843 support_hom=0.494
+[13:55:57]   frequency_gauge_k8       modules=  2 ARI=0.333 purity=0.534 support_hom=0.649
+[13:56:07]   frequency_standard_k8    modules=  3 ARI=0.685 purity=0.763 support_hom=0.649
+[13:56:07]   scale selection: admissible=[] selected=0 gauge_ARI=0.155 standard_ARI=0.138
+[13:56:08] seed 14 done, elapsed 1008.4s, ETA 0.0s
+[13:56:08] FIXED_K4_CONTROL {"gauge_minus_level0_ARI": {"mean": 0.6004866551431288, "n": 5, "sd": 0.1765798474845295}, "gauge_minus_random_ARI": {"mean": 0.31924534843301644, "n": 5, "sd": 0.171975854336013}, "gauge_minus_standard_ARI": {"mean": 0.01987741081717529, "n": 5, "sd": 0.091108463627862}, "oracle_minus_level0_ARI": {"mean": 0.6004866551431288, "n": 5, "sd": 0.1765798474845295}}
+[13:56:08] CONTROLS hierarchy static covariance: PASS
+[13:56:08] DONE

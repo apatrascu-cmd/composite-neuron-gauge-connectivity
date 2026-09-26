@@ -1,0 +1,15 @@
+[11:16:05] cnn_baseline_g0.01_s0 config=baseline gamma=0.01 seed=0 epochs=8 n_train=45000 n_val=5000 n_test=10000 params=167562 torch=2.2.2
+[11:17:12] cnn_baseline_g0.01_s0 epoch 1/8 loss 1.8042 pen 0.000 train 0.3252 val 0.4628 | 1.1 min, ETA 7.8 min
+[11:18:26] cnn_baseline_g0.01_s0 epoch 2/8 loss 1.5658 pen 0.000 train 0.4218 val 0.5126 | 2.4 min, ETA 7.1 min
+[11:19:43] cnn_baseline_g0.01_s0 epoch 3/8 loss 1.4743 pen 0.000 train 0.4588 val 0.5494 | 3.6 min, ETA 6.1 min
+[11:21:04] cnn_baseline_g0.01_s0 epoch 4/8 loss 1.4014 pen 0.000 train 0.4899 val 0.5704 | 5.0 min, ETA 5.0 min
+[11:22:17] cnn_baseline_g0.01_s0 epoch 5/8 loss 1.3522 pen 0.000 train 0.5075 val 0.5950 | 6.2 min, ETA 3.7 min
+[11:23:27] cnn_baseline_g0.01_s0 epoch 6/8 loss 1.3042 pen 0.000 train 0.5258 val 0.5984 | 7.4 min, ETA 2.5 min
+[11:24:41] cnn_baseline_g0.01_s0 epoch 7/8 loss 1.2738 pen 0.000 train 0.5387 val 0.6128 | 8.6 min, ETA 1.2 min
+[11:25:57] cnn_baseline_g0.01_s0 epoch 8/8 loss 1.2377 pen 0.000 train 0.5498 val 0.6314 | 9.9 min, ETA 0.0 min
+[11:26:04] cnn_baseline_g0.01_s0 clean test 0.6286
+[11:26:09] cnn_baseline_g0.01_s0 FGSM eps=0.03 on 2000 test images 0.0945 (5 s)
+[11:26:34] cnn_baseline_g0.01_s0 PGD-10 eps=0.03 on 2000 test images 0.0250 (25 s)
+[11:26:34] cnn_baseline_g0.01_s0 compactness 0.0532; DONE in 10.5 min
+n_baseline_g0.01_s0 PGD-10 eps=0.03 on 2000 test images 0.0250 (25 s)
+[11:26:34] cnn_baseline_g0.01_s0 compactness 0.0532; DONE in 10.5 min

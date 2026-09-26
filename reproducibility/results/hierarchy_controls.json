@@ -1,0 +1,6 @@
+{
+  "promoted_state_covariance_max_deviation": 3.3766115072321297e-16,
+  "coarse_link_covariance_max_deviation": 0.0,
+  "support_invariant": true,
+  "PASS": true
+}

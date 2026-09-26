@@ -1,0 +1,15 @@
+[20:37:07] cnn_adaptive_girl_g0.01_s0 config=adaptive_girl gamma=0.01 seed=0 epochs=8 n_train=45000 n_val=5000 n_test=10000 params=171658 torch=1.9.0
+[20:39:30] cnn_adaptive_girl_g0.01_s0 epoch 1/8 loss 1.8825 pen 4.124 train 0.2947 val 0.4210 | 2.4 min, ETA 16.7 min
+[20:42:31] cnn_adaptive_girl_g0.01_s0 epoch 2/8 loss 1.5864 pen 3.270 train 0.4186 val 0.4688 | 5.4 min, ETA 16.2 min
+[20:45:59] cnn_adaptive_girl_g0.01_s0 epoch 3/8 loss 1.4887 pen 3.123 train 0.4571 val 0.5006 | 8.9 min, ETA 14.8 min
+[20:49:11] cnn_adaptive_girl_g0.01_s0 epoch 4/8 loss 1.4204 pen 3.057 train 0.4838 val 0.5266 | 12.1 min, ETA 12.1 min
+[20:52:23] cnn_adaptive_girl_g0.01_s0 epoch 5/8 loss 1.3791 pen 3.057 train 0.5003 val 0.5384 | 15.3 min, ETA 9.2 min
+[20:55:30] cnn_adaptive_girl_g0.01_s0 epoch 6/8 loss 1.3379 pen 3.035 train 0.5186 val 0.5374 | 18.4 min, ETA 6.1 min
+[20:58:23] cnn_adaptive_girl_g0.01_s0 epoch 7/8 loss 1.3066 pen 3.025 train 0.5313 val 0.5616 | 21.3 min, ETA 3.0 min
+[20:59:58] cnn_adaptive_girl_g0.01_s0 epoch 8/8 loss 1.2738 pen 3.047 train 0.5426 val 0.5608 | 22.9 min, ETA 0.0 min
+[21:00:02] cnn_adaptive_girl_g0.01_s0 clean test 0.5580
+[21:00:07] cnn_adaptive_girl_g0.01_s0 FGSM eps=0.03 on 2000 test images 0.0725 (4 s)
+[21:00:32] cnn_adaptive_girl_g0.01_s0 PGD-10 eps=0.03 on 2000 test images 0.0240 (25 s)
+[21:00:32] cnn_adaptive_girl_g0.01_s0 compactness 0.7639; DONE in 23.4 min
+/usr/local/lib/python3.8/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  ../c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)

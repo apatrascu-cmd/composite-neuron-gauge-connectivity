@@ -1,0 +1,17 @@
+[13:38:34] params {"D0": 0.005, "D1": 0.001, "G": 4, "J0": 0.3, "J1": 0.3, "N": 250, "T0": 400.0, "T1_coarse": 400.0, "base_code_sha256": "47092474483a132ff85f66cf3bdc96dabd810b42c6cb8870417bc7d0d830d256", "coarse_k_values": [2, 4, 8], "code_sha256": "d7060b244306e42f23de7a6255b667cde4f064904ab9c67dead17ec1ad5dd089", "control_k": 4, "dOmega": 2.0, "delta_max": 3.141592653589793, "dt": 0.05, "eta_J0": 0.005, "eta_J1": 0.0025, "eta_omega0": 0.005, "eta_omega1": 0.0025, "eta_theta0": 0.05, "eta_theta1": 0.025, "flat_tolerance": 0.01, "k": 12, "min_size": 5, "mu": 1.0, "observation_every": 1.0, "observation_window": 100.0, "record_every": 10.0, "scale_certified_fraction": 0.95, "schema_version": 2, "seeds": [0], "sigma_omega": 0.05, "thr_frac": 0.5}
+[13:38:46] fine seed 0: candidates=15 certified=11 assigned=0.456
+[13:38:48]   local_gauge              modules= 10 ARI=0.596 purity=1.000 support_hom=0.071
+[13:38:51]   local_standard           modules= 10 ARI=0.596 purity=1.000 support_hom=0.071
+[13:38:53]   frequency_gauge_k2       modules=  4 ARI=1.000 purity=1.000 support_hom=0.385
+[13:38:57]   frequency_standard_k2    modules=  4 ARI=1.000 purity=1.000 support_hom=0.385
+[13:39:00]   frequency_gauge_k4       modules=  3 ARI=0.492 purity=0.640 support_hom=0.324
+[13:39:04]   frequency_standard_k4    modules=  3 ARI=0.492 purity=0.640 support_hom=0.324
+[13:39:07]   random_gauge_k4          modules=  6 ARI=0.913 purity=1.000 support_hom=0.176
+[13:39:12]   oracle_gauge_k4          modules=  4 ARI=1.000 purity=1.000 support_hom=0.458
+[13:39:14]   frequency_gauge_k8       modules=  3 ARI=0.492 purity=0.640 support_hom=0.208
+[13:39:18]   frequency_standard_k8    modules=  3 ARI=0.492 purity=0.640 support_hom=0.208
+[13:39:18]   scale selection: admissible=[2] selected=2 gauge_ARI=1.000 standard_ARI=1.000
+[13:39:19] seed 0 done, elapsed 44.8s, ETA 0.0s
+[13:39:19] FIXED_K4_CONTROL {"gauge_minus_level0_ARI": {"mean": 0.047527061949189264, "n": 1, "sd": 0.0}, "gauge_minus_random_ARI": {"mean": -0.4215645381302277, "n": 1, "sd": 0.0}, "gauge_minus_standard_ARI": {"mean": 0.0, "n": 1, "sd": 0.0}, "oracle_minus_level0_ARI": {"mean": 0.5557155600135978, "n": 1, "sd": 0.0}}
+[13:39:19] CONTROLS hierarchy static covariance: PASS
+[13:39:19] DONE

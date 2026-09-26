@@ -1,0 +1,15 @@
+[11:43:51] cnn_adaptive_g0.01_s0 config=adaptive gamma=0.01 seed=0 epochs=8 n_train=45000 n_val=5000 n_test=10000 params=167562 torch=2.2.2
+[11:47:50] cnn_adaptive_g0.01_s0 epoch 1/8 loss 1.7648 pen 6.932 train 0.3439 val 0.4180 | 4.0 min, ETA 27.8 min
+[11:51:36] cnn_adaptive_g0.01_s0 epoch 2/8 loss 1.4935 pen 7.649 train 0.4531 val 0.5232 | 7.7 min, ETA 23.2 min
+[11:53:32] cnn_adaptive_g0.01_s0 epoch 3/8 loss 1.3823 pen 7.763 train 0.4969 val 0.5448 | 9.7 min, ETA 16.1 min
+[11:55:21] cnn_adaptive_g0.01_s0 epoch 4/8 loss 1.3197 pen 7.881 train 0.5249 val 0.5574 | 11.5 min, ETA 11.5 min
+[11:59:08] cnn_adaptive_g0.01_s0 epoch 5/8 loss 1.2710 pen 7.984 train 0.5400 val 0.5834 | 15.3 min, ETA 9.2 min
+[12:04:12] cnn_adaptive_g0.01_s0 epoch 6/8 loss 1.2439 pen 7.894 train 0.5505 val 0.5886 | 20.3 min, ETA 6.8 min
+[12:09:24] cnn_adaptive_g0.01_s0 epoch 7/8 loss 1.2150 pen 7.945 train 0.5621 val 0.5590 | 25.5 min, ETA 3.6 min
+[12:15:17] cnn_adaptive_g0.01_s0 epoch 8/8 loss 1.1890 pen 8.055 train 0.5716 val 0.6114 | 31.4 min, ETA 0.0 min
+[12:15:34] cnn_adaptive_g0.01_s0 clean test 0.6000
+[12:15:44] cnn_adaptive_g0.01_s0 FGSM eps=0.03 on 2000 test images 0.0755 (10 s)
+[12:16:30] cnn_adaptive_g0.01_s0 PGD-10 eps=0.03 on 2000 test images 0.0165 (46 s)
+[12:16:30] cnn_adaptive_g0.01_s0 compactness 0.9763; DONE in 32.6 min
+n_adaptive_g0.01_s0 PGD-10 eps=0.03 on 2000 test images 0.0165 (46 s)
+[12:16:30] cnn_adaptive_g0.01_s0 compactness 0.9763; DONE in 32.6 min

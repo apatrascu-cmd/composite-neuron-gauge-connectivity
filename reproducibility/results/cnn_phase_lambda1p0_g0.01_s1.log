@@ -1,0 +1,10 @@
+[16:31:29] cnn_phase_lambda1p0_g0.01_s1 lambda=1.0 seed=1 epochs=8 train=45000 val=5000 params=171658
+[16:33:48] cnn_phase_lambda1p0_g0.01_s1 epoch 1/8 loss 1.8151 train 0.3170 val 0.4444 ETA 16.2 min
+[16:35:17] cnn_phase_lambda1p0_g0.01_s1 epoch 2/8 loss 1.5109 train 0.4482 val 0.4984 ETA 11.4 min
+[16:36:45] cnn_phase_lambda1p0_g0.01_s1 epoch 3/8 loss 1.3818 train 0.5018 val 0.5368 ETA 8.8 min
+[16:37:52] cnn_phase_lambda1p0_g0.01_s1 epoch 4/8 loss 1.2919 train 0.5398 val 0.5750 ETA 6.4 min
+[16:39:05] cnn_phase_lambda1p0_g0.01_s1 epoch 5/8 loss 1.1988 train 0.5738 val 0.6006 ETA 4.6 min
+[16:40:13] cnn_phase_lambda1p0_g0.01_s1 epoch 6/8 loss 1.1256 train 0.6012 val 0.6018 ETA 2.9 min
+[16:41:49] cnn_phase_lambda1p0_g0.01_s1 epoch 7/8 loss 1.0691 train 0.6266 val 0.6268 ETA 1.5 min
+[16:43:18] cnn_phase_lambda1p0_g0.01_s1 epoch 8/8 loss 1.0068 train 0.6458 val 0.6330 ETA 0.0 min
+[16:43:24] cnn_phase_lambda1p0_g0.01_s1 clean 0.6275 route_phase_defect 2.86102e-06 logit_phase_defect 4.76837e-06; DONE 11.9 min

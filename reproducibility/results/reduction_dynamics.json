@@ -1,0 +1,163 @@
+{
+  "random_fixed_point_checks": [
+    {
+      "trial": 0,
+      "n": 6,
+      "n_elementary": 5,
+      "Lambda": 0.04316587420221925,
+      "g_C": 7.651395982193693,
+      "schur_max_deviation": 2.220446049250313e-16,
+      "fixed_point_max_deviation": 2.220446049250313e-16,
+      "naive_fixed_point_max_deviation": 1.2787725581237472,
+      "PASS": true
+    },
+    {
+      "trial": 1,
+      "n": 5,
+      "n_elementary": 4,
+      "Lambda": 0.07832380010563225,
+      "g_C": 7.281149051348551,
+      "schur_max_deviation": 4.440892098500626e-16,
+      "fixed_point_max_deviation": 3.885780586188048e-16,
+      "naive_fixed_point_max_deviation": 0.1464614429195843,
+      "PASS": true
+    },
+    {
+      "trial": 2,
+      "n": 5,
+      "n_elementary": 2,
+      "Lambda": 0.0850457249698151,
+      "g_C": 7.577857559443447,
+      "schur_max_deviation": 4.440892098500626e-16,
+      "fixed_point_max_deviation": 3.7990444123892075e-16,
+      "naive_fixed_point_max_deviation": 0.027115532311905777,
+      "PASS": true
+    },
+    {
+      "trial": 3,
+      "n": 7,
+      "n_elementary": 2,
+      "Lambda": 0.12365652381660801,
+      "g_C": 27.125384603670884,
+      "schur_max_deviation": 8.881784197001252e-16,
+      "fixed_point_max_deviation": 1.1102230246251565e-16,
+      "naive_fixed_point_max_deviation": 0.2226275183240597,
+      "PASS": true
+    },
+    {
+      "trial": 4,
+      "n": 5,
+      "n_elementary": 4,
+      "Lambda": 0.18620346319623102,
+      "g_C": 19.593540066992357,
+      "schur_max_deviation": 2.220446049250313e-16,
+      "fixed_point_max_deviation": 2.498001805406602e-16,
+      "naive_fixed_point_max_deviation": 0.5419844730188255,
+      "PASS": true
+    }
+  ],
+  "transient_curve": [
+    {
+      "Lambda": 0.0,
+      "a": 1.0,
+      "eigenvalues_over_tau": [
+        -1.4898979485566357,
+        -0.5101020514433643
+      ],
+      "static_local_tau_over_tau": 1.3157894736842106,
+      "first_order_low_frequency_tau_over_tau": 1.631578947368421,
+      "exact_slow_tau_over_tau": 1.960392037574521,
+      "stable": true
+    },
+    {
+      "Lambda": 0.05,
+      "a": 0.75,
+      "eigenvalues_over_tau": [
+        -1.3805937104039172,
+        -0.36940628959608285
+      ],
+      "static_local_tau_over_tau": 1.4705882352941178,
+      "first_order_low_frequency_tau_over_tau": 2.0980392156862746,
+      "exact_slow_tau_over_tau": 2.707046490988073,
+      "stable": true
+    },
+    {
+      "Lambda": 0.1,
+      "a": 0.5,
+      "eigenvalues_over_tau": [
+        -1.2999999999999998,
+        -0.1999999999999999
+      ],
+      "static_local_tau_over_tau": 1.9230769230769234,
+      "first_order_low_frequency_tau_over_tau": 3.76923076923077,
+      "exact_slow_tau_over_tau": 5.000000000000003,
+      "stable": true
+    },
+    {
+      "Lambda": 0.14,
+      "a": 0.29999999999999993,
+      "eigenvalues_over_tau": [
+        -1.2520797289396146,
+        -0.047920271060385156
+      ],
+      "static_local_tau_over_tau": 5.000000000000007,
+      "first_order_low_frequency_tau_over_tau": 18.333333333333368,
+      "exact_slow_tau_over_tau": 20.867995482326943,
+      "stable": true
+    },
+    {
+      "Lambda": 0.15,
+      "a": 0.25,
+      "eigenvalues_over_tau": [
+        -1.2419481339626532,
+        -0.008051866037346644
+      ],
+      "static_local_tau_over_tau": 25.000000000000117,
+      "first_order_low_frequency_tau_over_tau": 121.00000000000058,
+      "exact_slow_tau_over_tau": 124.19481339626621,
+      "stable": true
+    },
+    {
+      "Lambda": 0.151,
+      "a": 0.245,
+      "eigenvalues_over_tau": [
+        -1.2409708966475304,
+        -0.004029103352469726
+      ],
+      "static_local_tau_over_tau": 49.00000000000021,
+      "first_order_low_frequency_tau_over_tau": 244.91836734693993,
+      "exact_slow_tau_over_tau": 248.19417932950972,
+      "stable": true
+    },
+    {
+      "Lambda": 0.152,
+      "a": 0.24,
+      "eigenvalues_over_tau": [
+        -1.24,
+        5.551115123125783e-17
+      ],
+      "static_local_tau_over_tau": null,
+      "first_order_low_frequency_tau_over_tau": null,
+      "exact_slow_tau_over_tau": null,
+      "stable": false
+    },
+    {
+      "Lambda": 0.19,
+      "a": 0.050000000000000044,
+      "eigenvalues_over_tau": [
+        -1.207367203197809,
+        0.15736720319780903
+      ],
+      "static_local_tau_over_tau": -0.2631578947368423,
+      "first_order_low_frequency_tau_over_tau": -25.526315789473664,
+      "exact_slow_tau_over_tau": null,
+      "stable": false
+    }
+  ],
+  "n": 6,
+  "epsilon": 0.2,
+  "Lambda_star": 0.152,
+  "Lambda_c": 0.2,
+  "interpretation": "The Schur complement is exact for fixed points. Exact elimination at Laplace frequency s gives J_eff(s)=J_EE+n eps eps^T/(a+tau s), hence a memory kernel. The static-local time is not an exact pole; the exact slow time is -1/lambda_plus.",
+  "OVERALL_PASS": true
+}

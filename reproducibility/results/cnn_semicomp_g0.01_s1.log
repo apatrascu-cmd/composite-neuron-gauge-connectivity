@@ -1,0 +1,13 @@
+[15:54:42] cnn_semicomp_g0.01_s1 config=semicomp gamma=0.01 seed=1 epochs=8 n_train=45000 n_val=5000 n_test=10000 params=167562 torch=2.2.2
+[16:04:06] cnn_semicomp_g0.01_s1 epoch 1/8 loss 1.8383 pen 6.030 train 0.3161 val 0.4526 | 9.4 min, ETA 65.7 min
+[16:10:00] cnn_semicomp_g0.01_s1 epoch 2/8 loss 1.5678 pen 7.013 train 0.4200 val 0.4912 | 15.3 min, ETA 45.9 min
+[16:16:25] cnn_semicomp_g0.01_s1 epoch 3/8 loss 1.4600 pen 6.913 train 0.4686 val 0.5268 | 21.7 min, ETA 36.2 min
+[16:21:17] cnn_semicomp_g0.01_s1 epoch 4/8 loss 1.3904 pen 7.095 train 0.4998 val 0.5450 | 26.6 min, ETA 26.6 min
+[16:27:19] cnn_semicomp_g0.01_s1 epoch 5/8 loss 1.3322 pen 7.352 train 0.5228 val 0.5504 | 32.6 min, ETA 19.6 min
+[16:31:22] cnn_semicomp_g0.01_s1 epoch 6/8 loss 1.2814 pen 7.545 train 0.5430 val 0.5714 | 36.7 min, ETA 12.2 min
+[16:35:26] cnn_semicomp_g0.01_s1 epoch 7/8 loss 1.2528 pen 7.710 train 0.5573 val 0.5834 | 40.7 min, ETA 5.8 min
+[16:39:38] cnn_semicomp_g0.01_s1 epoch 8/8 loss 1.2236 pen 7.770 train 0.5680 val 0.6026 | 44.9 min, ETA 0.0 min
+[16:39:52] cnn_semicomp_g0.01_s1 clean test 0.6065
+[16:40:03] cnn_semicomp_g0.01_s1 FGSM eps=0.03 on 2000 test images 0.0660 (11 s)
+[16:41:02] cnn_semicomp_g0.01_s1 PGD-10 eps=0.03 on 2000 test images 0.0150 (59 s)
+[16:41:02] cnn_semicomp_g0.01_s1 compactness 0.9829; DONE in 46.3 min

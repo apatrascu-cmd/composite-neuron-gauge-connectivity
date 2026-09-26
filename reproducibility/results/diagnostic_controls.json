@@ -1,0 +1,38 @@
+{
+  "known_flat_positive": {
+    "cycle_residual_abs_max": 0.0,
+    "R_cov_coverage": 0.999999999999,
+    "largest_component_fraction": 1.0,
+    "PASS": true
+  },
+  "triangle_free_cycle_negative": {
+    "triangle_count": 0,
+    "cycle_residual_abs_max": 1.5707963267948966,
+    "target_square_holonomy": 1.5707963267948966,
+    "PASS": true
+  },
+  "disconnected_coverage_negative": {
+    "survivors": 4,
+    "n_components": 2,
+    "largest_component_fraction": 0.5,
+    "R_cov_lcc": 0.9999999999989999,
+    "R_cov_coverage": 0.49999999999949996,
+    "PASS": true
+  },
+  "static_covariance_positive": {
+    "max_deviation": 4.440892098500626e-16,
+    "PASS": true
+  },
+  "offset_compensator_positive": {
+    "max_deviation": 2.482534153247273e-16,
+    "PASS": true
+  },
+  "time_dependent_rephasing_negative": {
+    "test_frame": "alpha_i=t^2, alpha_j=0 at t=1",
+    "transporter_rule_residual": 2.0,
+    "frequency_rule_residual": 2.0,
+    "static_rule_residual": 0.0,
+    "PASS": true
+  },
+  "OVERALL_PASS": true
+}

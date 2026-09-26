@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated article."
+title: "Reproducibility record for Emergent Composite Clustering and Gauge-Inspired Adaptive Connectivity in Agent-Based Neural Networks"
+type: software
+authors:
+  - family-names: "Pătrașcu"
+    given-names: "Andrei T."
+version: 1.0.0
+date-released: 2026-09-25
+repository-code: "https://github.com/apatrascu-cmd/composite-neuron-gauge-connectivity"
