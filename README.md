@@ -6,8 +6,7 @@ This repository is the reproducibility record for:
 
 It contains the final source code, final reported numerical records, execution
 receipts, and scripts needed to verify or reconstruct every numerical table and
-figure.  Private working records, journal correspondence, manuscript source,
-and superseded code are not part of this release.
+figure.  The current author manuscript is available as [manuscript.pdf](manuscript.pdf). Private working records, journal correspondence, manuscript source, and superseded code are not part of this release.
 
 ## Scientific scope
 
@@ -30,8 +29,7 @@ The repository also contains a bounded CIFAR-10 counterpart based on soft weight
 - `reproducibility/CLAIM_EVIDENCE_MAP.md` — a claim-by-claim map of proofs, raw records, negative results and scope limits.
 - `MANIFEST.sha256` — SHA-256 checksum of every released file.
 
-The public repository begins with one release commit.  It contains no earlier
-Git history or abandoned versions.  Records named `pilot` are retained only
+The original v1.0.0 reproducibility release begins with one clean release commit. This update adds the current author manuscript without importing private development history or abandoned versions.  Records named `pilot` are retained only
 where the final article explicitly reports them as method-freezing or
 sensitivity controls; they are evidence used by the submitted analysis, not
 discarded versions.
@@ -100,5 +98,8 @@ in `LICENSE-CODE`. The numerical records, generated tables, generated figures,
 execution logs and repository documentation are released under CC BY 4.0 as
 specified in `LICENSE-DATA.md`.
 
-The submitted manuscript, response letter, cover letter, private working notes
-and journal correspondence are not part of this repository.
+The author manuscript in `paper/` is supplied for reading and citation; its copyright is retained by the author and it is outside the code/data licenses. Response letters, cover letters, private working notes and journal correspondence are not included.
+
+## Manuscript version
+
+Author manuscript; revision submitted to Neurocomputing on 26 September 2026. Not an accepted or publisher-formatted article.
